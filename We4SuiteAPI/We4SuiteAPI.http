@@ -1,0 +1,6 @@
+@We4SuiteAPI_HostAddress = http://localhost:5003
+
+GET {{We4SuiteAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
