@@ -460,25 +460,32 @@
     ]
   },
   "packageFolders": {
-    "/home/codeany/.nuget/packages/": {}
+    "C:\\Users\\v-aruljothis\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/workspaces/dotnetdeveloper-assessment1/We4SuiteAPI/We4SuiteAPI.csproj",
+      "projectUniqueName": "c:\\POC\\We4Suite\\v-draft\\We4SuiteAPI\\We4SuiteAPI.csproj",
       "projectName": "We4SuiteAPI",
-      "projectPath": "/workspaces/dotnetdeveloper-assessment1/We4SuiteAPI/We4SuiteAPI.csproj",
-      "packagesPath": "/home/codeany/.nuget/packages/",
-      "outputPath": "/workspaces/dotnetdeveloper-assessment1/We4SuiteAPI/obj/",
+      "projectPath": "c:\\POC\\We4Suite\\v-draft\\We4SuiteAPI\\We4SuiteAPI.csproj",
+      "packagesPath": "C:\\Users\\v-aruljothis\\.nuget\\packages\\",
+      "outputPath": "c:\\POC\\We4Suite\\v-draft\\We4SuiteAPI\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "/home/codeany/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\v-aruljothis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
-        "https://api.nuget.org/v3/index.json": {}
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://pkgs.dev.azure.com/dspdeppm/4dbeda72-7005-40d2-b26b-ec9fc3a2600d/_packaging/COIOneMDMNugetPackageFeed/nuget/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
@@ -495,7 +502,8 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      }
+      },
+      "SdkAnalysisLevel": "9.0.200"
     },
     "frameworks": {
       "net8.0": {
@@ -529,7 +537,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.402/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
